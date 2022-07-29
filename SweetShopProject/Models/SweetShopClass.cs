@@ -23,7 +23,7 @@ namespace SweetShopProject.Models
 
         [NotMapped]
         public IFormFile images { get; set; }
-        [DisplayName("Images")]
+        [DisplayName("Image")]
         public string imgpath { get; set; }
 
 
