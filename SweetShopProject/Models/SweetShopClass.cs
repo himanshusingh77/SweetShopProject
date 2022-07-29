@@ -8,7 +8,7 @@ namespace SweetShopProject.Models
     {
         public int id { get; set; }
 
-        [DisplayName("Product Name")]
+        [DisplayName("Product Names")]
         public string prodName { get; set; }
 
         public float price { get; set; }
