@@ -13,6 +13,7 @@ namespace SweetShopProject.Models
 
         public float price { get; set; }
 
+        [DisplayName("Description")]
         public string description { get; set; }
 
         public int quantity { get; set; }
